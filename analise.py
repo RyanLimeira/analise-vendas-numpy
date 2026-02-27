@@ -14,7 +14,7 @@ indice_melhor_mes = np.argmax(vendas)
 melhor_mes = meses[indice_melhor_mes]
 
 # Crescimento percentual do ano
-crescimento = ((vendas[-1] - vendas[0]) / vendas [0]) * 100
+crescimento = ((vendas[-1] - vendas[0]) / vendas[0]) * 100
 
 print("===== Análise Vendas Anual =====")
 print(f"Média de vendas: {media_vendas:.2f}")
